@@ -2,7 +2,8 @@
 import reactDOM from "react-dom";
 
 // Importando componente
-import PrimeraApp from "./PrimeraApp";
+// import PrimeraApp from "./PrimeraApp";
+import CounterApp from './CounterApp';
 
 //importar estilos
 import './index.css';
@@ -10,4 +11,4 @@ import './index.css';
 
 const divRoot = document.querySelector('#root');
 
-reactDOM.render(<PrimeraApp />, divRoot);
+reactDOM.render(<CounterApp value = { 100 } />, divRoot);
